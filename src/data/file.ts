@@ -1,3 +1,3 @@
 export const main = () => {
-  console.log('lib')
+  console.log('hola')
 }
