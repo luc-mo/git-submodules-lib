@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "@sub-lib": ["./packages/sub-lib/src/index.ts"]
     },
     "target": "ESNext",
     "moduleResolution": "node16",
@@ -22,5 +22,8 @@
     "composite": true,
     "outDir": "./dist"
   },
+  "references": [
+    { "path": "./packages/sub-lib" }
+  ],
   "exclude": ["node_modules", "dist"]
 }

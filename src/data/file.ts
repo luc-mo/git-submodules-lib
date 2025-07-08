@@ -1,6 +1,6 @@
-import axios from 'axios'
+import { main as subMain } from '@sub-lib'
 
 export const main = async() => {
-  const data = await axios.get('https://jsonplaceholder.typicode.com/todos/1')
+  const data = await subMain()
   console.log({ data })
 }

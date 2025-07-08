@@ -1,0 +1,3 @@
+[submodule "packages/sub-lib"]
+	path = packages/sub-lib
+	url = https://github.com/luc-mo/git-submodules-sub-lib
