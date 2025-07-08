@@ -1,3 +1,1 @@
-export const main = () => {
-  console.log('lib')
-}
+export * from '@/data/file'
