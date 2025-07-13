@@ -1,2 +1,2 @@
-export * from './data/external'
-export * from './data/internal'
+export * from './functions/external'
+export * from './functions/internal'
